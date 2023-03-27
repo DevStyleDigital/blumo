@@ -83,7 +83,7 @@
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .loja1{
     grid-column: 1;
@@ -219,6 +219,28 @@
 }
 
 
+.loja3{
+    grid-column: 3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.501);
+    border-bottom-right-radius: 40px;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    justify-content: center;
+}
+
+.loja3 .title{
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    justify-self: center;
+    align-self: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+    letter-spacing: 2px;
+}
+
 .loja2 .title{
     grid-row: 1;
     font-family: 'Russo One', sans-serif;
@@ -265,6 +287,10 @@
     }
 
     .loja2 .title{
+        font-size: 20px;
+    }
+
+    .loja3 .title{
         font-size: 20px;
     }
 

@@ -944,7 +944,7 @@ main {
     border-radius: 10px;
     background-color: #74FA92;
     transition: all .5s;
-    opacity: 0;
+    opacity: 1;
     display: grid;
     grid-template-columns: 20% 80%;
 }
@@ -969,7 +969,7 @@ main {
         border-radius: 10px;
         background-color: #74FA92;
         transition: all .5s;
-        opacity: 0;
+        opacity: 1;
         display: grid;
         grid-template-columns: 20% 80%;
         cursor: pointer;

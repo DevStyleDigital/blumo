@@ -113,59 +113,59 @@ const buttonredondo = document.getElementById('whatsapp-fixed');
 
 const tela = window.innerWidth;
 
-document.addEventListener('scroll', () => {
-    if (tela < 768) {
-        const posibutton = button.getBoundingClientRect();
-        if (posibutton.y <= 850 && posibutton.y > 70) {
-            buttonredondo.style.opacity = '0'
-            button.style.opacity = '1'
-        } else {
-            buttonredondo.style.opacity = "1"
-            button.style.opacity = '0'
-        }
-    }
-})
+// document.addEventListener('scroll', () => {
+//     if (tela < 768) {
+//         const posibutton = button.getBoundingClientRect();
+//         if (posibutton.y <= 850 && posibutton.y > 70) {
+//             buttonredondo.style.opacity = '0'
+//             button.style.opacity = '1'
+//         } else {
+//             buttonredondo.style.opacity = "1"
+//             button.style.opacity = '0'
+//         }
+//     }
+// })
 
-document.getElementById('principal').addEventListener('scroll', () => {
-    if (tela >= 768 && tela < 1024) {
-        const posibutton = button.getBoundingClientRect();
-        if (posibutton.y <= 1050 && posibutton.y > 70) {
-            buttonredondo.style.opacity = '0'
-            button.style.opacity = '1'
-        } else {
-            buttonredondo.style.opacity = "1"
-            button.style.opacity = '0'
-        }
-    } else if (tela >= 1024 && tela < 1440) {
-        const posibutton = button_desk.getBoundingClientRect();
-        if (posibutton.y <= 1000 && posibutton.y > 70) {
-            buttonredondo.style.opacity = '0'
-            button_desk.style.opacity = '1'
-        } else {
-            buttonredondo.style.opacity = "1"
-            button_desk.style.opacity = '0'
-        }
-    } else if (tela >= 1440 && tela < 1920) {
-        const posibutton = button_desk.getBoundingClientRect();
-        if (posibutton.y <= 1200 && posibutton.y > 70) {
-            buttonredondo.style.opacity = '0'
-            button_desk.style.opacity = '1'
-        } else {
-            buttonredondo.style.opacity = "1"
-            button_desk.style.opacity = '0'
-        }
-    } else if (tela >= 1920) {
-        const posibutton = button_desk.getBoundingClientRect();
-        if (posibutton.y <= 970 && posibutton.y > 40) {
-            buttonredondo.style.opacity = '0'
-            button_desk.style.opacity = '1'
-        } else {
-            buttonredondo.style.opacity = "1"
-            button_desk.style.opacity = '0'
-        }
-    }
+// document.getElementById('principal').addEventListener('scroll', () => {
+//     if (tela >= 768 && tela < 1024) {
+//         const posibutton = button.getBoundingClientRect();
+//         if (posibutton.y <= 1050 && posibutton.y > 70) {
+//             buttonredondo.style.opacity = '0'
+//             button.style.opacity = '1'
+//         } else {
+//             buttonredondo.style.opacity = "1"
+//             button.style.opacity = '0'
+//         }
+//     } else if (tela >= 1024 && tela < 1440) {
+//         const posibutton = button_desk.getBoundingClientRect();
+//         if (posibutton.y <= 1000 && posibutton.y > 70) {
+//             buttonredondo.style.opacity = '0'
+//             button_desk.style.opacity = '1'
+//         } else {
+//             buttonredondo.style.opacity = "1"
+//             button_desk.style.opacity = '0'
+//         }
+//     } else if (tela >= 1440 && tela < 1920) {
+//         const posibutton = button_desk.getBoundingClientRect();
+//         if (posibutton.y <= 1200 && posibutton.y > 70) {
+//             buttonredondo.style.opacity = '0'
+//             button_desk.style.opacity = '1'
+//         } else {
+//             buttonredondo.style.opacity = "1"
+//             button_desk.style.opacity = '0'
+//         }
+//     } else if (tela >= 1920) {
+//         const posibutton = button_desk.getBoundingClientRect();
+//         if (posibutton.y <= 970 && posibutton.y > 40) {
+//             buttonredondo.style.opacity = '0'
+//             button_desk.style.opacity = '1'
+//         } else {
+//             buttonredondo.style.opacity = "1"
+//             button_desk.style.opacity = '0'
+//         }
+//     }
 
-})
+// })
 
 AOS.init();
 
