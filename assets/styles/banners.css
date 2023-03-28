@@ -10,7 +10,7 @@
 .banner{
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 290px;
+    width: 90%;
     height: 144px;
     display: flex;
     border-radius: 20px;
@@ -22,27 +22,27 @@
 
 @media screen and (max-width:380px){
     .banner{
-        width: 270px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width:768px){
     .banner{
-        width: 350px;
+        width: 90%;
         height: 190px;
     }
 }
 
 @media screen and (min-width:1024px){
     .banner{
-        width: 460px;
+        width: 90%;
         height: 250px;
     }
 }
 
 @media (min-width:1440px) {
     .banner{
-        width: 870px;
+        width: 90%;
         height: 380px;
     }
 }
