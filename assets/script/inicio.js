@@ -15,45 +15,14 @@ conteudo.addEventListener('click', () => {
 
 
 $(() => {
-    $('#cassossel1').owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        zindex: 99999,
+    $("#owl-demo").owlCarousel({
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        items : 1, 
         autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
         smartSpeed: 850,
-        responsiveClass: true,
-        responsive: {
-            320: {
-                stagePadding: 25,
-            },
-            321: {
-                stagePadding: 50,
-            },
-            360: {
-                stagePadding: 40,
-            },
-            375: {
-                stagePadding: 50,
-            },
-            412: {
-                stagePadding: 60,
-            },
-            460: {
-                stagePadding: 90,
-            },
-            768: {
-                stagePadding: 150,
-            },
-            1024: {
-                stagePadding: 225,
-            },
-            1920: {
-                stagePadding: 450,
-            }
-        }
     });
     $('#cassossel2').owlCarousel({
         items: 1,

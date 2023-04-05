@@ -59,11 +59,7 @@ header.top {
     }
 }
 
-@media screen and (min-width:1440px) {
-    header.top {
-        height: 4rem;
-    }
-}
+
 
 #menucheck {
     display: none;
